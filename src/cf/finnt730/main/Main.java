@@ -13,7 +13,8 @@ public class Main {
         ProcentNormal pro = new ProcentNormal();
 
 
-        System.out.println(pro.calc(4,6));
+        System.out.println((18.02-38.17)/38.17*100);
+        System.out.println(pro.toename(36,(float)36+9));
 
     }
 

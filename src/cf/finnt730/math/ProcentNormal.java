@@ -3,6 +3,10 @@ package cf.finnt730.math;
 public class ProcentNormal {
 
 
+    public float toename(float nieuw, float oud) {
+        return (nieuw-oud)/oud * 100 * -1;
+    }
+
 
     public float calc(int a, int b) {
         return (float) 100*b/a;
